@@ -2,7 +2,7 @@
 
 module.exports = function() {
   $.gulp.task('sprite:img-after', function() {
-    return $.gulp.src('./source/sprite/{*.png, *.jpg}')
+    return $.gulp.src('./source/sprite/{*.png, *.jpg, *.jpeg}')
       .pipe($.gp.spritesmith({
         imgName: 'sprite.png',
         cssName: '../css/sprite.css',
