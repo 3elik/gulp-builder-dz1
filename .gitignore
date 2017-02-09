@@ -1,3 +1,6 @@
+/.directory
+/source/style/common/sprite.scss
+/source/images/sprite.png
 # Numerous always-ignore extensions
 *.bak
 *.diff

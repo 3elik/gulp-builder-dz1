@@ -5,9 +5,10 @@ module.exports = function() {
     return $.gulp.src('./source/sprite/{*.png, *.jpg}')
       .pipe($.gp.spritesmith({
         imgName: 'sprite.png',
-        cssName: '../style/sprite.scss',
+        cssName: '../style/common/sprite.scss',
         padding: 5,
-        algorithm: 'binary-tree'
+        algorithm: 'binary-tree',
+        imgPath: '../../assets/img/sprite.png'
       }))
       .pipe($.gulp.dest('source/images'));
   });

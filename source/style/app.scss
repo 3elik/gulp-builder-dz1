@@ -3,7 +3,7 @@ body {
 }
 
 @import 'common/greating';
-@import 'sprite';
+@import 'common/sprite';
 
 .test {
   @include sprite($fb);
