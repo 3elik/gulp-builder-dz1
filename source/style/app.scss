@@ -3,3 +3,9 @@ body {
 }
 
 @import 'common/greating';
+@import 'common/sprite';
+
+.test {
+  display: inline-block;
+  @include sprite($fb);
+}
